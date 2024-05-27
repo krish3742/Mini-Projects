@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: #003249;
+    height: 3rem;
+    color: whitesmoke;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.userGame {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 50%;
+    margin: 15px;
+    border: 5px solid transparent;
+}
+
+.userSelect {
+    margin-top: 20px;
+    height: 38vh;
+}
+
+#rock {
+    background-color: #80CED7;
+    background-image: url("rock.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#paper {
+    background-color: #4e9199;
+    background-image: url("paper.png");
+    background-size: 83%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scissor {
+    background-color: #809597;
+    background-image: url("scissor.png");
+    background-size: 83%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 22vh;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.point {
+    font-size: 3rem;
+}
+
+.msg {
+    height: 10vh;
+    width: 35vh;
+    background-color: #4C191B;
+    color: #ECFFF8;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg-conatiner {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    height: 8vh;
+    width: 10vh;
+    background-color: #FF9F1C;
+    color: #011627;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-size: 1rem;
+}
