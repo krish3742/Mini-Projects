@@ -20,7 +20,7 @@ h1 {
     width: 25vmin;
     border-radius: 50%;
     margin: 15px;
-    border: 5px solid transparent;
+    border: 3px solid transparent;
 }
 
 .userSelect {

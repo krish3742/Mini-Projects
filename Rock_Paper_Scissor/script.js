@@ -26,15 +26,15 @@ scissor.addEventListener("mouseover", () => {
 })
 
 rock.addEventListener("mouseout", () => {
-    rock.style.border = "none";
+    rock.style.border = "3px solid transparent";
 })
 
 paper.addEventListener("mouseout", () => {
-    paper.style.border = "none";
+    paper.style.border = "3px solid transparent";
 })
 
 scissor.addEventListener("mouseout", () => {
-    scissor.style.border = "none";
+    scissor.style.border = "3px solid transparent";
 })
 
 // 1 - rock, 2 - paper, 3 - scissor 
