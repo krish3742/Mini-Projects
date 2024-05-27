@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.container {
+.gameContainer {
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@ body {
     color: brown;
 }
 
-#reset-btn {
+.btn {
     height: 10vmin;
     width: 12vmin;
     border-radius: 8%;
@@ -44,6 +44,27 @@ body {
     background-color: #191913;
     color: whitesmoke;
     font-size: 1rem;
+}
+
+#msg {
+    color: #282a2b;
+    font-size: 5rem;
+}
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#new{
+    width: 20vmin;
+}
+
+.hide {
+    display: none;
 }
 
 h1 {
