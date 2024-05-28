@@ -8,7 +8,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #ECC8AF;
+    background-image: url(a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(100px);
 }
 
 .container {
