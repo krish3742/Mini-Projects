@@ -73,9 +73,9 @@ form input {
     border-radius: 50%;
     height: auto;
     width: auto;
-    font-size: 1.1rem;
+    font-size: .5rem;
     color: whitesmoke;
-    padding: .35rem;
+    padding: .15rem;
     border: 1px solid black;
 }
 
