@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar-main {
+  height: 44px;
+  width: 100%;
+  background-color: #1d1d1f;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-bar {
+  height: 44px;
+  width: 85%;
+  position: fixed;
+  top: 5px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 80px;
+}
+
+.nav-bar span {
+  font-size: 0.85rem;
+}
+
+.icon {
+  color: white;
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+.nav-msg {
+  height: 45px;
+  background-color: #1d1d1f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.nav-msg p {
+  font-weight: 600;
+}
+
+.nav-msg a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.nav-msg a:hover {
+  text-decoration: underline;
+}
+
+.nav-msg sup {
+  font-size: 0.6rem;
+}
+
+.arrow {
+  color: #0066cc;
+  font-size: 0.7rem;
+  padding-left: 2px;
+  padding-top: 3px;
+}
+
+.hero {
+  height: 569px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.hero1-page {
+  background-image: url("./img/iphone-15-pro.png");
+  background-size: cover;
+}
+
+.hero2-page {
+  background-image: url("./img/Screenshot\ \(19\).png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  padding-top: 5px;
+  font-weight: normal;
+}
+
+.hero div {
+  display: inline-block;
+  color: #0066cc;
+  opacity: 0.8;
+  padding-top: 12.5px;
+  padding-right: 20px;
+  font-size: 1.25rem;
+}
+
+.hero div a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.hero div a:hover {
+  text-decoration: underline;
+}
+
+.hero div i {
+  font-size: 0.95rem;
+}
+
+.hero3-page {
+  background-image: url("./img/Apple_Watch.jpg");
+  background-size: cover;
+  opacity: 2;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  color: white;
+  margin-top: 3px;
+}
+
+.apple-watch {
+  display: flex;
+  justify-content: center;
+  padding-top: 400px;
+}
+
+.apple-watch div {
+  font-size: 3.2rem;
+  position: relative;
+  top: -5px;
+}
+
+.apple-watch h1 {
+  font-size: 3rem;
+}
+
+.hero3-page h2 {
+  font-size: 1.5rem;
+  position: relative;
+  top: -10px;
+}
+
+.hero3-page p {
+  font-size: x-large;
+}
+
+.hero3-page button {
+  height: 45px;
+  width: 120px;
+  border-radius: 980px;
+  position: relative;
+  top: 15px;
+  border: none;
+  margin-left: 40px;
+  font-size: 1.1rem;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.929);
+}
+
+.section {
+  height: 490px;
+  width: 100%;
+  border: 2px solid transparent;
+  margin: 5px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.gifts-image {
+  background-image: url("./img/3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mac-image {
+  background-image: url("./img/4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.learn-buy {
+  display: inline-block;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: #0066cc;
+}
+
+.image {
+  height: 60%;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.section p {
+  padding-top: 8px;
+  font-size: larger;
+}
+
+.section h1 {
+  font-size: 2.75rem;
+}
+
+.learn-buy a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.learn-buy a:hover {
+  text-decoration: underline;
+}
+
+.learn-buy i {
+  font-size: 0.85rem;
+  position: relative;
+  left: -2px;
+}
+
+.image1 {
+  margin-top: 0px;
+  padding: 50px;
+}
+
+.learn-buy1 {
+  margin-left: 210px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.watch-image {
+  background-image: url("./img/5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ipad-image {
+  background-image: url("./img/6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.air-image {
+  background-image: url("./img/7.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0%;
+  padding-top: 0;
+}
+
+.trade-image {
+  background-image: url("./img/8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main5-page {
+  background-color: black;
+  color: white;
+}
+
+.icon-head {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-head div {
+  font-size: 2.2rem;
+  position: relative;
+  top: -5px;
+}
+
+.icon-head h1 {
+  font-size: 2rem;
+}
+
+.section h2 {
+  font-size: 1rem;
+  color: yellowgreen;
+  position: relative;
+  top: -4px;
+}
+
+footer {
+  background-color: #0000000e;
+  height: 860px;
+}
+
+.foot-msg {
+  width: 80%;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 125px;
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.7;
+  line-height: 130%;
+}
+
+.foot-msg p sup {
+  font-size: 0.5rem;
+}
+
+.foot-msg p span {
+  text-decoration: underline;
+  color: black;
+}
+
+.border {
+  height: 1px;
+  border-top: 0.5px solid #00000083;
+  opacity: 0.8;
+  width: 81%;
+  margin-left: 123px;
+  margin-top: 15px;
+}
+
+.foot-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.foot-sec ul li {
+  font-size: 0.9rem;
+}
+
+.foot-sec ul li {
+  margin-top: 8px;
+  color: black;
+  opacity: 0.7;
+}
+
+.foot-sec ul li:hover {
+  text-decoration: underline;
+}
+
+.foot-sec ul p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.foot-last-msg {
+  margin-left: 125px;
+  color: black;
+  opacity: 0.7;
+  font-size: small;
+}
+
+.foot-copy {
+  display: flex;
+  margin-left: 125px;
+  margin-top: 15px;
+  font-size: small;
+  color: black;
+  opacity: 0.7;
+}
+
+.foot-policy {
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.foot-policy p {
+  margin-left: 10px;
+}
+
+.foot-policy span {
+  margin-left: 10px;
+}
+
+.foot-policy p:hover {
+  text-decoration: underline;
+}
+
+.india {
+  margin-left: 280px;
+}
