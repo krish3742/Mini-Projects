@@ -32,16 +32,18 @@ body {
 
 .panel {
     height: 80vh;
-    width: 10vh;
+    width: 3vw;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin: 1rem;
     border-radius: 10px;
+    transition: width 2s ease-in-out;
 }
 
 .active{
-    width: 100%;
-    background-size: 100%;
+    width: 90vw;
+    transition: width 2s linear;
 }
 
 .container {
@@ -49,4 +51,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.panel:hover {
+    cursor: pointer;
 }
