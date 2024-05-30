@@ -38,12 +38,11 @@ body {
     background-repeat: no-repeat;
     margin: 1rem;
     border-radius: 10px;
-    transition: width 2s ease-in-out;
+    transition: width 750ms linear;
 }
 
 .active{
     width: 90vw;
-    transition: width 2s linear;
 }
 
 .container {
