@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  color: white;
+  height: 61px;
+  background-color: #0f1111;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url("./img/logo.png");
+  background-size: cover;
+  height: 40px;
+  width: 100%;
+}
+
+.same {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.add-icon {
+  display: flex;
+}
+
+#deliver {
+  margin-left: 15px;
+  font-size: 0.85rem;
+  color: #cccccc;
+}
+
+#india {
+  font-size: 1rem;
+  margin-left: 2px;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 500px;
+}
+
+.search-select {
+  background-color: #e6e6e6;
+  text-align: center;
+  width: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+
+.input-search {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.hello-p {
+  font-size: 0.85rem;
+}
+
+.list-div {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.account-select {
+  background-color: #0f1111;
+  border: none;
+  font-size: 10px;
+  color: rgb(245, 214, 214);
+  margin-left: 0px;
+}
+
+.nav-cart {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 1.75rem;
+}
+
+.cart {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.country {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nav-shop {
+  color: white;
+  height: 40px;
+  background-color: #1f2323;
+  display: flex;
+  align-items: center;
+}
+
+.nav-all {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-bar {
+  font-size: 1.2rem;
+}
+
+#all {
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+.nav-shop-all {
+  margin-left: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section {
+  background-image: url("./img/Home.jpg");
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  height: 40px;
+  width: 95%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: #007185;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.shop-section {
+  height: 835px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(241, 241, 11, 0.89);
+}
+
+.box {
+  height: 350px;
+  width: 23%;
+  border: 2px solid transparent;
+  margin-top: 15px;
+  background-color: white;
+  padding: 20px 0px 15px;
+}
+
+.box1-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/toy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box-content {
+  margin: 0px 15px 0px 15px;
+}
+
+.box2-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/PC.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box3-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/Beauty.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box4-image {
+  height: 255px;
+  width: 100%;
+  background-image: url("./img/last.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+}
+
+.box5-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/decor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box6-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/business.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box7-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/personal.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box8-image {
+  height: 270px;
+  width: 100%;
+  background-image: url("./img/shoes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.box:hover {
+  a {
+    color: red;
+  }
+}
+
+.box-content a {
+  text-decoration: none;
+}
+
+.back-top {
+  height: 50px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.back-top:hover {
+  opacity: 0.9;
+}
+
+.foot-list {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #222f3d;
+  color: white;
+}
+
+.list {
+  margin-top: 60px;
+}
+
+.list li {
+  list-style-type: none;
+}
+
+.list p {
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.list li:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  font-size: 0.85rem;
+  padding-top: 10px;
+}
+
+.panel3 {
+  height: 90px;
+  background-color: #222f3d;
+  border-top: 0.01px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url("./img/logo.png");
+  background-size: cover;
+  height: 40px;
+  width: 120px;
+  margin-right: 100px;
+}
+
+.foot-border {
+  border: 0.5px solid white;
+  height: 30px;
+  width: 150px;
+  border-radius: 10%;
+  margin-left: 8px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 0.85rem;
+}
+
+.panel4 {
+  height: 75px;
+  background-color: #131a22;
+  color: white;
+  text-align: center;
+}
+
+.pages a {
+  color: white;
+  text-decoration: none;
+}
+
+.pages a:hover {
+  text-decoration: underline;
+}
+
+.pages {
+  width: 500px;
+  font-size: 0.8rem;
+  padding-top: 25px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  padding-top: 5px;
+  font-size: 0.85rem;
+}
