@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D7D9B1;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+hr {
+    width: 5rem;
+    background-color: gray;
+    border: 1.5px solid gray;
+}
+
+p {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    color: #1C5D99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid gray;
+}
+
+.steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.button {
+    height: 2rem;
+    width: 7.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+#next {
+    background-color: #1C5D99;
+}
+
+#step1 {
+    border: 2.5px solid #1C5D99;
+}
+ 
