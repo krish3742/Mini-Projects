@@ -1,9 +1,7 @@
 let prev = document.querySelector("#previous");
 let next = document.querySelector("#next");
 let steps = document.querySelectorAll(".steps");
-
 let active = 1;
-let maxActive = 4;
 
 next.addEventListener("click", () => {
     update("next");
