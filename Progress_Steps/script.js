@@ -16,12 +16,6 @@ prev.addEventListener("click", () => {
 })
 
 let update = (button) => {
-    if(active > maxActive) {
-        active = maxActive;
-    } else if (active < 1) {
-        active = 1;
-    }
-
     if(button === "prev") {
         steps.forEach((step) => {
             if(step.id == active) {
