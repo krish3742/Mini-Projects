@@ -34,7 +34,7 @@ let update = (button) => {
 let buttonActive = () => {
     if(active == 1) {
         prev.disabled = true;
-    } else if(active == 4) {
+    } else if(active == 5) {
         next.disabled = true;
     } else {
         prev.disabled = false;
