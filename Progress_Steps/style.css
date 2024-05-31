@@ -17,8 +17,8 @@ body {
 
 hr {
     width: 5rem;
-    background-color: gray;
-    border: 1.5px solid gray;
+    border: 2.5px solid gray;
+    transition: .3s ease;
 }
 
 p {
@@ -32,6 +32,7 @@ p {
     justify-content: center;
     align-items: center;
     border: 2.5px solid gray;
+    transition: .5s ease;
 }
 
 .steps-container {
@@ -53,15 +54,20 @@ p {
     width: 7.5rem;
     border-radius: 10px;
     border: none;
-    background-color: gray;
-    color: white;
-}
-
-#next {
     background-color: #1C5D99;
+    color: white;
 }
 
 #step1 {
     border: 2.5px solid #1C5D99;
+}
+
+.selected {
+    border: 2.5px solid #1C5D99;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: gray;
 }
  
