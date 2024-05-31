@@ -9,5 +9,6 @@
   <li>Rock Paper Scissor</li>
   <li>Tic Tac Toe</li>
   <li>To Do List</li>
+  <li>Progress Steps</li>
 </ol>
 
