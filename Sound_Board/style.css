@@ -5,13 +5,18 @@
 
 body {
     background-color: rgb(161, 100, 223);
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
 }
 
 .main-container {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 3rem;
 }
 
@@ -27,6 +32,30 @@ button {
 
 button:hover {
     cursor: pointer;
-    border: 1.5px solid black;
+    border: 1.5px solid #BCF8EC;
     transition: .4s ease;
+}
+
+.reset-btn {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    margin-top: 1.5rem;
+    background-color: #7B435B;
+    border: 1.5px solid #BCF8EC;
+    font-size: 1.25rem;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset:hover {
+    cursor: pointer;
 }
