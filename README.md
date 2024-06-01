@@ -11,5 +11,8 @@
   <li>To Do List</li>
   <li>Progress Steps</li>
   <li>Sound Board</li>
+  <li>Password Generator</li>
+  <li>Sliding Sign In and Sign Up<li>
+  <li>Drawing App<li>
 </ol>
 
