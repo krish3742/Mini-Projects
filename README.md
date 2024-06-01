@@ -10,5 +10,6 @@
   <li>Tic Tac Toe</li>
   <li>To Do List</li>
   <li>Progress Steps</li>
+  <li>Sound Board</li>
 </ol>
 
