@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Sign In and Sign Up</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="\
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="sign-in-container">
+                <p id="sign-in-para">Sign In</p>
+                <div class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <p id="account-para">or use your account</p>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                </form>
+                <p id="forgot-para">Forgot your password?</p>
+                <button id="sign-in">Sign In</button>
+            </div>
+            <div class="sign-up-container">
+                <h3 id="greet">Hello, Friend!</h3>
+                <p id="greet-msg">Enter your personal details and start your journey with us</p>
+                <button id="sign-up">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
