@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="main-container">
-            <div class="sign-container" id="sign-in-container">
+            <div class="sign-container index" id="sign-in-container">
                 <h2 id="sign-para">Sign In</h2>
                 <div class="social">
                     <i class="fa-brands fa-instagram"></i>
@@ -23,14 +23,14 @@
                 </div>
                 <p id="use-para">or use your account</p>
                 <form>
-                    <input id="email" type="email" placeholder="Email" required>
-                    <input id="password" type="password" placeholder="Password" required>
+                    <input class="email" type="email" placeholder="Email" required>
+                    <input class="password" type="password" placeholder="Password" required>
                 </form>
                 <p id="forgot-para">Forgot your password?</p>
                 <button id="sign-btn">SIGN IN</button>
             </div>
 
-            <div class="sign-container hide" id="sign-up-container">
+            <div class="sign-container" id="sign-up-container">
                 <h2 id="sign-para">Sign Up</h2>
                 <div class="social">
                     <i class="fa-brands fa-instagram"></i>
@@ -39,24 +39,24 @@
                 </div>
                 <p id="use-para">or use email for registration</p>
                 <form>
-                    <input id="name" type="text" placeholder="Name" required>
-                    <input id="email" type="email" placeholder="Email" required>
-                    <input id="password" type="password" placeholder="Password" required>
+                    <input class="name" type="text" placeholder="Name" required>
+                    <input class="email" type="email" placeholder="Email" required>
+                    <input class="password" type="password" placeholder="Password" required>
                 </form>
                 <button id="sign-btn">SIGN UP</button>
-            </div>
+            </div>   
 
-            <div class="sign-msg" id="sign-up-msg">
+            <div class="sign-msg index" id="sign-up-msg">
                 <h2 id="greet">Hello, Friend!</h2>
                 <p id="greet-msg">Enter your personal details and start your journey with us</p>
-                <button id="sign-msg-btn">SIGN UP</button>
+                <button class="sign-msg-btn" id="sign-up-btn">SIGN UP</button>
             </div>
 
-            <div class="sign-msg hide" id="sign-in-msg">
+            <div class="sign-msg" id="sign-in-msg">
                 <h2 id="greet">Welcome Back!</h2>
                 <p id="greet-msg">Please login with your personal info</p>
-                <button id="sign-msg-btn">SIGN IN</button>
-            </div>
+                <button class="sign-msg-btn" id="sign-in-btn">SIGN IN</button>
+            </div>         
         </div>
     </div>
     <script src="script.js"></script>
