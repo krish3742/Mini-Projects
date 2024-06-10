@@ -1,5 +1,6 @@
 let brush = document.querySelector(".brush");
 let eraser = document.querySelector(".eraser");
+let reset = document.querySelector(".reset");
 let canvas = document.querySelector(".canvas-drawing");
 let inputColor = document.querySelector("input");
 let ctx = canvas.getContext("2d");
@@ -8,13 +9,17 @@ let isPressed = false;
 
 window.addEventListener("load", () => {
     canvas.height = canvas.offsetHeight;
-    canvas.width = canvas.offsetWidth;
-})
+    canvas.width = canvas.offsetWidth;   
+});
+
+inputColor.addEventListener("change", () => {
+    color = inputColor.value;
+});
 
 brush.addEventListener("click", () => {
     brush.style.border = "1.5px solid black";
     eraser.style.border = "1.5px solid transparent";
-    color = "black";
+    color = inputColor.value;
 });
 
 eraser.addEventListener("click", () => {
@@ -62,6 +67,6 @@ function line (x1, y1, x2, y2) {
     ctx.stroke();
 };
 
-inputColor.addEventListener("change", () => {
-    color = inputColor.value;
-});
+reset.addEventListener("click", () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+})

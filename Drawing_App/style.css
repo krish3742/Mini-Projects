@@ -12,6 +12,9 @@
 
 .buttons {
     margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 #button-design {
@@ -39,13 +42,8 @@ i {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-
 #button-design:hover {
     cursor: pointer;
-}
-
-.border {
-    border: 1.5px solid black;
 }
 
 input {
@@ -54,4 +52,5 @@ input {
     border: none;
     background-color: transparent;
 }
+
 
