@@ -3,15 +3,16 @@
     padding: 0;
 }
 
-body {
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(a.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    backdrop-filter: blur(100px);
+    background-color: brown;
+}
+
+.heading {
+    text-align: center;
 }
 
 .container {
@@ -58,7 +59,6 @@ form input {
 
 .select-container {
     display: flex;
-    /* background-color: black; */
     justify-content: center;
     align-items: center;
     width: 6rem;
@@ -89,4 +89,10 @@ button {
     color: white;
     font-size: 1rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 70%;
+    }
 }

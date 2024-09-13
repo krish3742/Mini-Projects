@@ -13,35 +13,37 @@
         referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="container">
-        <h2>Currency Converter</h2>
-        <form>
-            <div class="amount">
-                <p>Enter amount:</p>
-                <input type="text" value="1">
-            </div>
-            <div class="dropdown">
-                <div class="from">
-                    <p>From</p>
-                    <div class="select-container">
-                        <img src="https://flagsapi.com/US/flat/64.png">
-                        <select name="from">
-                        </select>
+    <div class="main-container">
+        <div class="container">
+            <h2 class="heading">Currency Converter</h2>
+            <form>
+                <div class="amount">
+                    <p>Enter amount:</p>
+                    <input type="text" value="1">
+                </div>
+                <div class="dropdown">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="from">
+                            </select>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select name="to">
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                <div class="to">
-                    <p>To</p>
-                    <div class="select-container">
-                        <img src="https://flagsapi.com/IN/flat/64.png">
-                        <select name="to">
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <p id="msg">1 USD = 83.13 INR</p>
-            <button>Get Exchange Rate</button>
-        </form>
+                <p id="msg">1 USD = 83.13 INR</p>
+                <button>Get Exchange Rate</button>
+            </form>
+        </div>
     </div>
     <script src="codes.js"></script>
     <script src="script.js"></script>
