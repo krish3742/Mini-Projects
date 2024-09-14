@@ -8,10 +8,11 @@
     display: flex;
     align-items: center;
     background-color: #D6FFB7;
+    gap: 1rem;
 }
 
 .buttons {
-    margin-left: 1.5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -37,7 +38,6 @@ i {
     height: 90%;
     width: 90%;
     background-color: white;
-    margin-left: 1.5rem;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -51,4 +51,13 @@ input {
     width: 1rem;
     border: none;
     background-color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .buttons {
+        flex-direction: row;
+    }
 }
